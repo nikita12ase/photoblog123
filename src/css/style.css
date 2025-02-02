@@ -8,3 +8,34 @@
   --font-primary: "Playfair Display", serif;
   --font-secondary: "Ubuntu", serif;
 }
+body {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--color-text-primary);
+}
+
+.nav-link {
+  color: var(--color-text-navigation);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--color-text-hover);
+}
+
+.post-category {
+  font-family: var(--font-secondary);
+  color: var(--color-text-category);
+  font-weight: 300;
+}
+.post-title {
+  font-size: 30px;
+}
+.gallery-button {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  border: ;
+}
